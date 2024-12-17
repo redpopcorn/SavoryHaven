@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Savory Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Savory Haven</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Book a Reservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="reservation-section">
+        <h2>Reserve a Table</h2>
+        <form id="reservationForm">
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="date" id="date" required>
+            <input type="time" id="time" required>
+            <input type="number" placeholder="Number of Guests" id="guests" min="1" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <footer>
+        &copy; 2024 Savory Haven. All Rights Reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
